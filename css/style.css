@@ -274,7 +274,6 @@ section {
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    margin-left: 6rem;
 }
 
 .menu .box-container .box:hover {
