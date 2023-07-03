@@ -17,7 +17,14 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-
+<style>
+    .btn-order {
+        background: black;
+        color: white;
+        height: 35px;
+        padding: 10px;
+    }
+</style>
 <body>
 
     <!-- HEADER -->
@@ -30,7 +37,7 @@
             <a href="#home">home</a>
             <a href="#about">about</a>
             <a href="#menu">menu</a>
-            <a href="#book">book</a>
+            <a href="#book"><i class="fas fa-shopping-cart"></i> book</a>
         </nav>
 
         <a href="#book" class="btn">book a table</a>
@@ -102,7 +109,9 @@
                     <span>$1</span>
                 </div>
             </a>
-
+            <a href="javascript:void(0)" class="btn-order" onclick="redirectToWhatsApp('+6282199067434', 'White Coffe')">
+                <i class="fas fa-shopping-cart"></i> Order
+            </a>
             <a href="javascript:void(0)" class="box">
                 <img src="image/menu-2.png" alt="">
                 <div class="content">
@@ -110,6 +119,9 @@
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, fugit.</p>
                     <span>$2</span>
                 </div>
+            </a>
+            <a href="javascript:void(0)" class="btn-order" onclick="redirectToWhatsApp('+6282199067434', 'Mocca')">
+                <i class="fas fa-shopping-cart"></i> Order
             </a>
 
             <a href="javascript:void(0)" class="box">
@@ -120,6 +132,9 @@
                     <span>$3</span>
                 </div>
             </a>
+            <a href="javascript:void(0)" class="btn-order" onclick="redirectToWhatsApp('+6282199067434', 'Fresco')">
+                <i class="fas fa-shopping-cart"></i> Order
+            </a>
 
             <a href="javascript:void(0)" class="box">
                 <img src="image/menu-4.png" alt="">
@@ -129,7 +144,9 @@
                     <span>$1.3</span>
                 </div>
             </a>
-
+            <a href="javascript:void(0)" class="btn-order" onclick="redirectToWhatsApp('+6282199067434', 'Vanilla')">
+                <i class="fas fa-shopping-cart"></i> Order
+            </a>
         </div>
     </section>
 

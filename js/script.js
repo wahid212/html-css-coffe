@@ -39,3 +39,9 @@ var swiper = new Swiper(".review-slider", {
         }
     },
 });
+
+function redirectToWhatsApp(number, coffeeName) {
+    var message = 'Saya ingin memesan ' + coffeeName;
+    var url = 'https://api.whatsapp.com/send?phone=' + number + '&text=' + encodeURIComponent(message);
+    window.location.href = url;
+}
